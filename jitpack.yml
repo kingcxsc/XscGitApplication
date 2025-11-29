@@ -1,0 +1,7 @@
+# 1. 指定 JDK 11（必填）
+jdk:
+  - openjdk11
+
+# 2. 强制使用 Gradle 8.0（覆盖项目本地 wrapper 版本，必填）
+gradle:
+  version: 8.0
